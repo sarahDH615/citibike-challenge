@@ -2,7 +2,7 @@
 
 ### contains
 analysis.md: contains summary analysis of visualisations within a Tableau Story
-[https://public.tableau.com/profile/sarah.dalleyhood#!/vizhome/CitiBikeAnalysis_16185073442630/citibikeanalysis?publish=yes] Citibike Analysis: a Tableau Story with associated dashboards and worksheets analysing the Citibike station use dataset. 
+[Citibike Analysis](https://public.tableau.com/profile/sarah.dalleyhood#!/vizhome/CitiBikeAnalysis_16185073442630/citibikeanalysis?publish=yes) Citibike Analysis: a Tableau Story with associated dashboards and worksheets analysing the Citibike station use dataset. 
 
 
 ### description
