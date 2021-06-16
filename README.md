@@ -9,9 +9,9 @@
 
 The goal of this analysis was to uncover two trends within the Citibike dataset over 2018-2021: usage by gender, to determine whether outreach to women has been successful, and identifying bikes potentially in need of servicing. To that end, charts and graphs of people using Citibike by gender and trip length and quantity were created. A graph of usage of start and end station locations was also created. 
 
-![Bar Usage By Gender]('/images/genderBreakdown.png')
-![Trip Duration Horizontal Bar]('/images/tripDuration.png')
-![Station Location Map]('/images/stationLocation.png')
+![Bar Usage By Gender](/images/genderBreakdown.png)
+![Trip Duration Horizontal Bar](/images/tripDuration.png)
+![Station Location Map](/images/stationLocation.png)
 
 ### challenges
 
