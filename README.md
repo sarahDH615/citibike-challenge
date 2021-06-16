@@ -22,7 +22,8 @@ The dataset required several steps of pre-processing. First, each month's datase
 
 Another challenge was finding the percentages of users by gender. At first using a calculated field was attempted, but it proved difficult to combine the multiple columns within it. Then the 'Percentages Of' option under the Analysis tab was used, in combination with sets, to create visualisations illustrating the percentages of female usage. 
 
-![Gender Usage Table](/images/genderPercTable.png)
+<span style="display:block;text-align:center">![Gender Usage Table](/images/genderPercTable.png)</span>
+
 *The table upon which the gender usage pie charts were based, created using the 'Percentages Of' Analysis option.*
 
 Finally, combining two latitude/longitude pairs into one map proved difficult. It was not possible to have two latitudes/longitudes as rows and columns on a map, so using a Dual Axis and the other latitude/longitude was used as Details. 
