@@ -16,7 +16,7 @@ The goal of this analysis was to uncover two trends within the Citibike dataset 
 ### challenges
 
 The dataset required several steps of pre-processing. First, each month's dataset was concatenated into one file, then the user year of birth column was searched for suspicious values, and all rows with birth years before 1931 were removed. Finally, the index was copied into a column to act as a unique 'trip ID' for each row in Tableau. 
-![Suspicious Birth Dates]('images/suspiciousDOBedited.png')
+![Suspicious Birth Dates]('/images/suspiciousDOBedited.png')
 *A review of values in the Birth Year column revealed unrealistic birth dates such as 1888*
 
 Another challenge was finding the percentages of users by gender. At first using a calculated field was attempted, but it proved difficult to combine the multiple columns within it. Then the 'Percentages Of' option under the Analysis tab was used, in combination with sets, to create visualisations illustrating the percentages of female usage. 
