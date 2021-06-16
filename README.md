@@ -1,11 +1,11 @@
-## citibike-challenge
+# citibike-challenge
 
-_Contains_
+# Contains
 - analysis.md: contains summary analysis of visualisations within a Tableau Story
 - [Citibike Analysis](https://public.tableau.com/profile/sarah.dalleyhood#!/vizhome/CitiBikeAnalysis_16185073442630/citibikeanalysis?publish=yes): a Tableau Story with associated dashboards and worksheets analysing the Citibike station use dataset
 - bike_preprocessing.ipynb: contains the code for preprocessing the Citibike dataset
 
-_Description_
+# Description
 
 The goal of this analysis was to uncover two trends within the Citibike dataset over 2018-2021: usage by gender, to determine whether outreach to women has been successful, and identifying bikes potentially in need of servicing. To that end, charts and graphs of people using Citibike by gender and trip length and quantity were created. A graph of usage of start and end station locations was also created. 
 
@@ -13,7 +13,7 @@ The goal of this analysis was to uncover two trends within the Citibike dataset 
 ![Trip Duration Horizontal Bar](/images/tripDuration.png)
 ![Station Location Map](/images/stationLocation.png)
 
-_Challenges_
+# Challenges
 
 The dataset required several steps of pre-processing. First, each month's dataset was concatenated into one file, then the user year of birth column was searched for suspicious values, and all rows with birth years before 1931 were removed. Finally, the index was copied into a column to act as a unique 'trip ID' for each row in Tableau. 
 
