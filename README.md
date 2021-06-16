@@ -7,11 +7,17 @@
 
 ### description
 
-The goal of this analysis was to uncover two trends within the Citibike dataset over 2018-2021. Usage by gender and identifying bikes potentially in need of servicing. 
+The goal of this analysis was to uncover two trends within the Citibike dataset over 2018-2021: usage by gender, to determine whether outreach to women has been successful, and identifying bikes potentially in need of servicing. To that end, charts and graphs of people using Citibike by gender and trip length and quantity were created. A graph of usage of start and end station locations was also created. 
+
+![Bar Usage By Gender]('images/genderBreakdown.png')
+![Trip Duration Horizontal Bar]('images/tripDuration.png')
+![Station Location Map]('images/stationLocation.png')
 
 ### challenges
 
 The dataset required several steps of pre-processing. First, each month's dataset was concatenated into one file, then the user year of birth column was searched for suspicious values, and all rows with birth years before 1931 were removed. Finally, the index was copied into a column to act as a unique 'trip ID' for each row in Tableau. 
+![Suspicious Birth Dates]('images/suspiciousDOBedited.png')
+*A review of values in the Birth Year column revealed unrealistic birth dates such as 1888*
 
 Another challenge was finding the percentages of users by gender. At first using a calculated field was attempted, but it proved difficult to combine the multiple columns within it. Then the 'Percentages Of' option under the Analysis tab was used, in combination with sets, to create visualisations illustrating the percentages of female usage. 
 
