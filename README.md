@@ -22,7 +22,10 @@ The dataset required several steps of pre-processing. First, each month's datase
 
 Another challenge was finding the percentages of users by gender. At first using a calculated field was attempted, but it proved difficult to combine the multiple columns within it. Then the 'Percentages Of' option under the Analysis tab was used, in combination with sets, to create visualisations illustrating the percentages of female usage. 
 
-<span style="display:block;text-align:center">![Gender Usage Table](/images/genderPercTable.png)</span>
+
+<p align="center" width="100%">
+    <img width="33%" src="/images/genderPercTable.png" alt='Gender Usage Table'> 
+</p>
 
 *The table upon which the gender usage pie charts were based, created using the 'Percentages Of' Analysis option.*
 
