@@ -24,11 +24,13 @@ Another challenge was finding the percentages of users by gender. At first using
 
 
 <p align="center" width="100%">
-    <img width="33%" src="/images/genderPercTable.png" alt='Gender Usage Table'> 
+    <img width="90%" src="/images/genderPercTable.png" alt='Gender Usage Table'> 
 </p>
 
 *The table upon which the gender usage pie charts were based, created using the 'Percentages Of' Analysis option.*
 
 Finally, combining two latitude/longitude pairs into one map proved difficult. It was not possible to have two latitudes/longitudes as rows and columns on a map, so using a Dual Axis and the other latitude/longitude was used as Details. 
 
-![Use of Dual Axis](/images/dualAxis.png)
+<p align="center" width="100%">
+    <img width="90%" src="/images/dualAxis.png" alt='Use of Dual Axis'> 
+</p>
