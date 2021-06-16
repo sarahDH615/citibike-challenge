@@ -21,7 +21,7 @@ The dataset required several steps of pre-processing. First, each month's datase
     <img width="80%" src="/images/suspiciousDOBedited.png" alt='Suspicious Birth Dates'> 
 </p>
 
-_A review of values in the Birth Year column revealed unrealistic birth dates such as 1888._
+*A review of values in the Birth Year column revealed unrealistic birth dates such as 1888.*
 
 Another challenge was finding the percentages of users by gender. At first using a calculated field was attempted, but it proved difficult to combine the multiple columns within it. Then the 'Percentages Of' option under the Analysis tab was used, in combination with sets, to create visualisations illustrating the percentages of female usage. 
 
